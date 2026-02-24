@@ -2,7 +2,7 @@
 import streamlit as st
 import pandas as pd
 import json
-from blockchain import Blockchain
+from blockchain_core import Blockchain
 
 st.set_page_config(page_title="Admin Dashboard", layout="wide")
 st.title("🌐 Admin Dashboard - Emissions Monitoring")
