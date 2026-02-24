@@ -16,7 +16,7 @@ bc = Blockchain()
 # Load Sensor Data
 # -------------------------
 st.subheader("📡 Sensor Data")
-csv_path = "data/sensor_data.csv"  # input CSV
+csv_path = "data/sensor_data_raw.csv"  # input CSV
 output_csv_path = "data/sensor_data_with_anomalies.csv"  # output CSV with anomalies
 
 try:
